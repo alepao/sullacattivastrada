@@ -99,7 +99,7 @@ q, p {
     width: 100%;
     height: 100%;
     z-index: 9999;
-    background: url('../img/squares.gif') center no-repeat #fff;
+    background: url('../img/loading.gif') center no-repeat #fff;
 }
 
 .btn {
@@ -993,7 +993,7 @@ nav ul li {
     right: 0;
     top: 0;
     bottom: 0;
-    background: url(../img/squares.gif) center no-repeat;
+    background: url(../img/loading.gif) center no-repeat;
 }
 
 #contact p {
