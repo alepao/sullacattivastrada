@@ -42,11 +42,11 @@ body {
 
 a {
     transition: all 0.6s ease 0s;
-    color: #dedc2c;
+    color: inherit;
 }
 
 a:hover {
-    color: #fffc00;
+    color: inherit;
 }
 
 h1 {
