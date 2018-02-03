@@ -70,9 +70,9 @@
         $mail = new PHPMailer;
         
         $mail->setFrom($fromEmail, $fromName);
-        $mail->addAddress($toEmail1); // you can add more addresses by simply adding another line with $mail->addAddress();
-        $mail->addAddress($toEmail2); // you can add more addresses by simply adding another line with $mail->addAddress();
-        $mail->addAddress($toEmail3); // you can add more addresses by simply adding another line with $mail->addAddress();
+        $mail->addAddress('postmaster@sullacattivastrada.net'); // you can add more addresses by simply adding another line with $mail->addAddress();
+        $mail->addAddress('laura@sullacattivastrada.net'); // you can add more addresses by simply adding another line with $mail->addAddress();
+        $mail->addAddress('lorenzo@sullacattivastrada.net'); // you can add more addresses by simply adding another line with $mail->addAddress();
         $mail->addReplyTo($from);
         $mail->Subject = $subject;
         
